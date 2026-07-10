@@ -10,11 +10,11 @@ contact_note: >
   I am open to research collaboration on embodied AI, 3D vision, and interactive scene understanding.
   You can reach me at ruijiex0@gmail.com.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ruijie Xu is a Ph.D. student advised by Prof. Xin Tan in the DMCV Lab at East China Normal University, working on embodied AI, 3D vision, and AI2-THOR based research.
+  Ruijie Xu is a Ph.D. student advised by Prof. Xin Tan in the DMCV Lab at East China Normal University and a research intern at the Safe and Trustworthy AI Center, Shanghai AI Laboratory, researching embodied AI, controllable 3D scene authoring and editing, 3D vision, and trustworthy vision-language model evaluation.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Ruijie Xu, Xu Ruijie, embodied AI, 3D vision, AI2-THOR, East China Normal University # add your own keywords or leave empty
+keywords: Ruijie Xu, Xu Ruijie, embodied AI, 3D vision, 3D scene authoring, 3D scene editing, vision-language models, AI2-THOR, East China Normal University # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

@@ -4,7 +4,7 @@
     "label": "PhD Student",
     "image": "assets/img/ayanokoji_avatar.png",
     "email": "ruijiex0@gmail.com",
-    "summary": "Ph.D. student advised by Prof. Xin Tan in the DMCV Lab at East China Normal University, working on embodied AI, 3D vision, and interactive scene understanding.",
+    "summary": "Ph.D. student advised by Prof. Xin Tan in the DMCV Lab at East China Normal University and research intern at the Safe and Trustworthy AI Center, Shanghai AI Laboratory. Research interests include embodied AI, 3D vision, and interactive scene understanding.",
     "location": {
       "city": "Shanghai",
       "countryCode": "CN"
@@ -38,6 +38,43 @@
       "studyType": "B.Sc.",
       "startDate": "2022",
       "endDate": "2026"
+    }
+  ],
+  "work": [
+    {
+      "name": "Shanghai AI Laboratory",
+      "location": "Shanghai, China",
+      "position": "Research Intern, Safe and Trustworthy AI Center",
+      "url": "https://www.shlab.org.cn/",
+      "startDate": "2025-11",
+      "endDate": "Present",
+      "summary": "Research on trustworthy embodied intelligence, 3D scene understanding and generation, multimodal large language models, and agent systems."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Outstanding Graduate",
+      "date": "2026",
+      "awarder": "Chongqing University",
+      "summary": "University-level honor."
+    },
+    {
+      "title": "Finalist",
+      "date": "2025-05",
+      "awarder": "Mathematical Contest in Modeling (MCM/ICM)",
+      "summary": "International-level recognition."
+    },
+    {
+      "title": "Silver Medal",
+      "date": "2024-06",
+      "awarder": "ICPC National Invitational Contest (Sichuan)",
+      "summary": "National-level programming contest."
+    },
+    {
+      "title": "Silver Medal",
+      "date": "2023-11",
+      "awarder": "CCPC National Invitational Contest (Chongqing)",
+      "summary": "National-level programming contest."
     }
   ],
   "projects": [

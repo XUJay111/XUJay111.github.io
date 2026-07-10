@@ -4,7 +4,7 @@ cv:
   email: ruijiex0@gmail.com
   location: Shanghai, China
   image: assets/img/ayanokoji_avatar.png
-  summary: Ph.D. student advised by Prof. Xin Tan in the DMCV Lab at East China Normal University, working on embodied AI, 3D vision, and interactive scene understanding.
+  summary: Ph.D. student advised by Prof. Xin Tan in the DMCV Lab at East China Normal University and research intern at the Safe and Trustworthy AI Center, Shanghai AI Laboratory. Research interests include embodied AI, 3D vision, and interactive scene understanding.
 
   social_networks:
     - network: GitHub
@@ -46,14 +46,44 @@ cv:
         highlights:
           - Advisor: Prof. Xin Tan.
 
+      - institution: Shanghai AI Laboratory
+        location: Shanghai, China
+        url: https://www.shlab.org.cn/
+        position: Research Intern, Safe and Trustworthy AI Center
+        start_date: 2025-11
+        end_date: Present
+        highlights:
+          - Research on trustworthy embodied intelligence, 3D scene understanding and generation, multimodal large language models, and agent systems.
+
+    Honors & Awards:
+      - name: Outstanding Graduate of Chongqing University
+        date: 2026
+        summary: University-level honor.
+
+      - name: Finalist, Mathematical Contest in Modeling (MCM/ICM)
+        date: 2025-05
+        summary: International-level recognition.
+
+      - name: Silver Medal, ICPC National Invitational Contest (Sichuan)
+        date: 2024-06
+        summary: National-level programming contest.
+
+      - name: Silver Medal, CCPC National Invitational Contest (Chongqing)
+        date: 2023-11
+        summary: National-level programming contest.
+
+    Academic Service:
+      - label: Journal Reviewer
+        details: Invited reviewer for The Visual Computer and npj Heritage Science (2026).
+
     Publications:
       - title: "MUSE: Agentic 3D Scene Authoring via Memory-Grounded Incremental Requirement Satisfaction"
         authors:
           - Ruijie Xu
           - Xinnan Zhu
-          - Junyi Ying
-          - Da Dong
-          - Yuheng Ji
+          - Jiayu Ying
+          - Daoguo Dong
+          - Yuzhou Ji
           - Xin Tan
         publisher: arXiv preprint arXiv:2606.14168
         releaseDate: 2026
@@ -63,10 +93,10 @@ cv:
         authors:
           - Xinnan Zhu
           - Ruijie Xu
-          - Junyi Ying
-          - Da Dong
-          - Jun Xu
-          - Yuxin Xie
+          - Jiayu Ying
+          - Daoguo Dong
+          - Jiachen Xu
+          - Yuan Xie
           - Xin Tan
         publisher: arXiv preprint arXiv:2606.13345
         releaseDate: 2026
@@ -74,9 +104,10 @@ cv:
 
       - title: "TSHA: A Benchmark for Visual Language Models in Trustworthy Safety Hazard Assessment Scenarios"
         authors:
-          - Qian Yu
+          - Qiucheng Yu
           - Ruijie Xu
-          - Mingcheng J. Dong
+          - Mingang Chen
+          - Jianfeng Dong
           - Xin Tan
         publisher: arXiv preprint arXiv:2603.29759
         releaseDate: 2026

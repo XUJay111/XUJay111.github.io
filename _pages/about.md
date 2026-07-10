@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student, DMCV Lab, East China Normal University
+subtitle: Ph.D. Student at ECNU | Research Intern at Shanghai AI Laboratory
 
 profile:
   align: right
@@ -10,10 +10,9 @@ profile:
   image: ayanokoji_avatar.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>DMCV Lab</p>
-    <p>East China Normal University</p>
+    <p><a href="https://dmcv-ecnu.github.io/">DMCV Lab @ ECNU</a></p>
+    <p><a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a></p>
     <p>Shanghai, China</p>
-    <p><a href="https://scholar.google.com/citations?user=29hnWtIAAAAJ&hl=en">Google Scholar</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,11 +28,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am **Ruijie Xu**, a Ph.D. student at **East China Normal University**, advised by **Prof. Xin Tan** in the **DMCV Lab**.
-My research interests focus on **embodied AI**, **3D vision**, and **interactive scene understanding**, with an emphasis on building practical tools and benchmarks for intelligent agents in simulated 3D environments.
+I am **Ruijie Xu**, a Ph.D. student in the [DMCV Lab](https://dmcv-ecnu.github.io/) at **East China Normal University**, advised by [Prof. Xin Tan](https://tanxincs.github.io/), and a **Research Intern** at the **Safe and Trustworthy AI Center**, [Shanghai AI Laboratory](https://www.shlab.org.cn/).
 
-I received my B.Sc. in **Computer Science and Technology** from **Chongqing University** in 2026.
+My research focuses on **embodied AI**, **3D vision**, and **interactive scene understanding**, with an emphasis on controllable 3D scene authoring, scene editing, and trustworthy vision-language model evaluation.
+Recent work includes [MUSE](https://arxiv.org/abs/2606.14168), [JointEdit3D](https://arxiv.org/abs/2606.13345), and [TSHA](https://arxiv.org/abs/2603.29759).
 
-I maintain [awesome-ai2-thor](https://github.com/XUJay111/awesome-ai2-thor), a curated resource for research and engineering around AI2-THOR and embodied AI environments.
-
-This site collects my projects, publications, and research updates.
+Before joining ECNU, I received my B.Sc. in **Computer Science and Technology** from **Chongqing University** in 2026. I also maintain [awesome-ai2-thor](https://github.com/XUJay111/awesome-ai2-thor) and welcome research collaborations in embodied AI and 3D vision.
