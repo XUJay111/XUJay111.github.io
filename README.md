@@ -287,7 +287,10 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 
 <!--ts-->
 
-- [al-folio](#al-folio)
+- [Ruijie Xu — Academic Website](#ruijie-xu--academic-website)
+  - [Editing the site](#editing-the-site)
+  - [Local checks](#local-checks)
+  - [al-folio](#al-folio)
   - [User community](#user-community)
   - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
     - [Desktop](#desktop)
