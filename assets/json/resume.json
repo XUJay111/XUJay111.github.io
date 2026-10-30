@@ -4,7 +4,7 @@
     "label": "PhD Student",
     "image": "assets/img/ayanokoji_avatar.png",
     "email": "ruijiex0@gmail.com",
-    "summary": "Ph.D. student advised by Prof. Xin Tan in the DMCV Lab at East China Normal University and research intern at the Safe and Trustworthy AI Center, Shanghai AI Laboratory. Research interests include embodied AI, 3D vision, and interactive scene understanding.",
+    "summary": "Ph.D. student advised by Prof. Xin Tan in the DMCV Lab at East China Normal University and research intern at Shanghai AI Laboratory. Research focuses on data generation for embodied AI, including controllable 3D scenes, simulation-based multimodal data, and safety-oriented benchmarks.",
     "location": {
       "city": "Shanghai",
       "countryCode": "CN"
@@ -26,7 +26,7 @@
     {
       "institution": "East China Normal University",
       "location": "Shanghai, China",
-      "area": "Embodied AI and 3D Vision",
+      "area": "Data Generation for Embodied AI",
       "studyType": "Ph.D. Student",
       "startDate": "2026",
       "endDate": "Present"
@@ -48,7 +48,7 @@
       "url": "https://www.shlab.org.cn/",
       "startDate": "2025-11",
       "endDate": "Present",
-      "summary": "Research on trustworthy embodied intelligence, 3D scene understanding and generation, multimodal large language models, and agent systems."
+      "summary": "Research on embodied data generation, spatial question-answer synthesis, and safety-oriented evaluation of vision-language models."
     }
   ],
   "awards": [
@@ -79,6 +79,26 @@
   ],
   "projects": [
     {
+      "name": "MUSE",
+      "description": "Memory-grounded multi-agent authoring of controllable 3D scenes, with AuthorBench for evaluating requirement satisfaction and preservation.",
+      "url": "https://xujay111.github.io/muse_githubio/"
+    },
+    {
+      "name": "JointEdit3D",
+      "description": "Reference-guided 3D scene editing with SceneEdit3D-15K paired data and SceneEdit3D-Bench for evaluation.",
+      "url": "https://xinnan-zhu.github.io/JointEdit3D-Page/"
+    },
+    {
+      "name": "Exemplar2VQA",
+      "description": "Scalable spatial question-answer generation in simulated environments via multi-agent coding. Accepted to NeurIPS 2026.",
+      "url": "https://github.com/yingjiayu12/Exemplar2VQA"
+    },
+    {
+      "name": "TSHA",
+      "description": "Multimodal question-answer benchmarks for indoor safety hazard assessment with vision-language models.",
+      "url": "https://arxiv.org/abs/2603.29759"
+    },
+    {
       "name": "awesome-ai2-thor",
       "description": "Curated resources for AI2-THOR and embodied AI research.",
       "url": "https://github.com/XUJay111/awesome-ai2-thor"
@@ -87,7 +107,39 @@
   "skills": [
     {
       "name": "Research Areas",
-      "keywords": ["Embodied AI", "3D Vision", "AI2-THOR", "3D Scene Understanding", "Vision-Language Models"]
+      "keywords": ["Embodied AI", "Synthetic Data", "3D Scene Generation and Editing", "Spatial Question Answering", "Benchmark Construction"]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Exemplar2VQA: A Scalable Exemplar-Driven Visual Question Answering Generation Framework via Multi-Agent Coding",
+      "publisher": "NeurIPS 2026 (accepted; CCF-A)",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2609.37655"
+    },
+    {
+      "name": "MUSE: Agentic 3D Scene Authoring via Memory-Grounded Incremental Requirement Satisfaction",
+      "publisher": "arXiv preprint arXiv:2606.14168",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2606.14168"
+    },
+    {
+      "name": "JointEdit3D: Feed-Forward 3D Scene Editing in a Unified Latent Space",
+      "publisher": "arXiv preprint arXiv:2606.13345",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2606.13345"
+    },
+    {
+      "name": "TSHA: A Benchmark for Visual Language Models in Trustworthy Safety Hazard Assessment Scenarios",
+      "publisher": "arXiv preprint arXiv:2603.29759",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2603.29759"
+    },
+    {
+      "name": "OSH-Splat: Optimizable Semantic Hyperplanes for Enhanced 3D Language Feature Gaussian Splatting",
+      "publisher": "The Visual Computer, 41(13), 11127–11137 (CCF-C)",
+      "releaseDate": "2025",
+      "url": "https://doi.org/10.1007/s00371-025-04091-5"
     }
   ]
 }

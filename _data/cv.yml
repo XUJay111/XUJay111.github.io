@@ -4,7 +4,7 @@ cv:
   email: ruijiex0@gmail.com
   location: Shanghai, China
   image: assets/img/ayanokoji_avatar.png
-  summary: Ph.D. student advised by Prof. Xin Tan in the DMCV Lab at East China Normal University and research intern at the Safe and Trustworthy AI Center, Shanghai AI Laboratory. Research interests include embodied AI, 3D vision, and interactive scene understanding.
+  summary: Ph.D. student advised by Prof. Xin Tan in the DMCV Lab at East China Normal University and research intern at Shanghai AI Laboratory. Research focuses on data generation for embodied AI, including controllable 3D scenes, simulation-based multimodal data, and safety-oriented benchmarks.
 
   social_networks:
     - network: GitHub
@@ -17,14 +17,14 @@ cv:
       - institution: East China Normal University
         location: Shanghai, China
         url: https://www.ecnu.edu.cn/
-        area: Embodied AI and 3D Vision
+        area: Data Generation for Embodied AI
         studyType: Ph.D. Student
         start_date: 2026
         end_date: Present
         highlights:
           - Advisor: Prof. Xin Tan.
           - DMCV Lab.
-          - Research interests include embodied AI, 3D vision, and interactive scene understanding.
+          - Research on controllable 3D scenes, simulation-based multimodal data generation, and benchmark construction.
 
       - institution: Chongqing University
         location: Chongqing, China
@@ -53,7 +53,7 @@ cv:
         start_date: 2025-11
         end_date: Present
         highlights:
-          - Research on trustworthy embodied intelligence, 3D scene understanding and generation, multimodal large language models, and agent systems.
+          - Research on embodied data generation, spatial question-answer synthesis, and safety-oriented evaluation of vision-language models.
 
     Honors & Awards:
       - name: Outstanding Graduate of Chongqing University
@@ -77,6 +77,19 @@ cv:
         details: Invited reviewer for The Visual Computer and npj Heritage Science (2026).
 
     Publications:
+      - title: "Exemplar2VQA: A Scalable Exemplar-Driven Visual Question Answering Generation Framework via Multi-Agent Coding"
+        authors:
+          - Jiayu Ying
+          - Qijian Tian
+          - Ruijie Xu
+          - Xinnan Zhu
+          - Daoguo Dong
+          - Jiachen Xu
+          - Xin Tan
+        publisher: NeurIPS 2026 (accepted; CCF-A)
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2609.37655
+
       - title: "MUSE: Agentic 3D Scene Authoring via Memory-Grounded Incremental Requirement Satisfaction"
         authors:
           - Ruijie Xu
@@ -119,11 +132,27 @@ cv:
           - Yuzhou Ji
           - Xin Tan
           - Lizhuang Ma
-        publisher: The Visual Computer, 41(13), 11127–11137
+        publisher: The Visual Computer, 41(13), 11127–11137 (CCF-C)
         releaseDate: 2025
         url: https://doi.org/10.1007/s00371-025-04091-5
 
     Projects:
+      - name: MUSE
+        summary: Memory-grounded multi-agent authoring of controllable 3D scenes, with AuthorBench for evaluating requirement satisfaction and preservation.
+        url: https://xujay111.github.io/muse_githubio/
+
+      - name: JointEdit3D
+        summary: Reference-guided 3D scene editing with SceneEdit3D-15K paired data and SceneEdit3D-Bench for evaluation.
+        url: https://xinnan-zhu.github.io/JointEdit3D-Page/
+
+      - name: Exemplar2VQA
+        summary: Scalable spatial question-answer generation in simulated environments via multi-agent coding. Accepted to NeurIPS 2026.
+        url: https://github.com/yingjiayu12/Exemplar2VQA
+
+      - name: TSHA
+        summary: Multimodal question-answer benchmarks for indoor safety hazard assessment with vision-language models.
+        url: https://arxiv.org/abs/2603.29759
+
       - name: awesome-ai2-thor
         summary: Curated resources for AI2-THOR and embodied AI research.
         url: https://github.com/XUJay111/awesome-ai2-thor
@@ -136,4 +165,4 @@ cv:
       - name: Research Areas
         level: ""
         icon: fa-solid fa-hashtag
-        keywords: "Embodied AI, 3D Vision, AI2-THOR, 3D Scene Understanding, Vision-Language Models"
+        keywords: "Embodied AI, Synthetic Data, 3D Scene Generation and Editing, Spatial Question Answering, Benchmark Construction"

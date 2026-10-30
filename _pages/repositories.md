@@ -1,47 +1,41 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: GitHub profile and selected repositories.
-nav: false
+title: open source
+description: public research repositories, datasets, and resources for embodied AI
+nav: true
 nav_order: 4
 ---
 
-{% if site.data.repositories.github_users %}
+Public repositories for my research collaborations, alongside resources I maintain. Repository owners and release details are listed below. You can also browse my [GitHub profile](https://github.com/{{ site.data.socials.github_username }}).
 
-## GitHub users
+{% for repository in site.data.repositories.github_repos %}
+{% assign details = site.data.repositories.repository_details[repository] %}
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
+<article class="card mb-4">
+  <div class="card-body">
+    <h2 class="card-title"><a href="https://github.com/{{ repository }}">{{ details.title | default: repository | escape }}</a></h2>
+    <p><small>{{ repository | escape | replace: '/', '/<wbr>' }} · {{ details.relationship | escape }}</small></p>
+    <p>{{ details.description | escape }}</p>
+    <p><strong>Release:</strong> {{ details.release | escape }}</p>
+    <p>
+      <a href="https://github.com/{{ repository }}">GitHub repository</a>
+      {% if details.project %} · <a href="{{ details.project | relative_url }}">Project overview</a>{% endif %}
+      {% if details.paper_key %} · <a href="{{ '/publications/' | relative_url }}#{{ details.paper_key }}">Paper</a>{% endif %}
+      {% if details.dataset %} · <a href="{{ details.dataset }}">Dataset</a>{% endif %}
+    </p>
   </div>
-
----
+</article>
 
 {% endfor %}
-{% endif %}
-{% endif %}
 
-{% if site.data.repositories.github_repos %}
+{% if site.data.repositories.show_stats %}
 
-## GitHub Repositories
+## Repository statistics
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
+  {% for repository in site.data.repositories.github_repos %}
+    {% include repository/repo.liquid repository=repository %}
   {% endfor %}
 </div>
 {% endif %}

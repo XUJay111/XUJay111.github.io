@@ -2,9 +2,8 @@
 layout: page
 title: awesome-ai2-thor
 description: curated resources for AI2-THOR and embodied AI research
-importance: 1
+importance: 5
 category: research
-github: https://github.com/XUJay111/awesome-ai2-thor
 ---
 
 [awesome-ai2-thor](https://github.com/XUJay111/awesome-ai2-thor) is a curated collection of resources for AI2-THOR and embodied AI research.

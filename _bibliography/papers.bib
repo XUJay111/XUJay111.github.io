@@ -1,6 +1,22 @@
 ---
 ---
 
+@inproceedings{ying2026exemplar2vqa,
+  abbr = {NeurIPS},
+  title = {{Exemplar2VQA}: A Scalable Exemplar-Driven Visual Question Answering Generation Framework via Multi-Agent Coding},
+  author = {Ying, Jiayu and Tian, Qijian and Xu, Ruijie and Zhu, Xinnan and Dong, Daoguo and Xu, Jiachen and Tan, Xin},
+  abstract = {Advancing spatial intelligence in Multimodal Large Language Models (MLLMs) is bottlenecked by the scarcity of complex, scalable 3D question-answer (QA) data. While manual annotation is labor-intensive, directly utilizing LLMs to synthesize these QA pairs often fails due to their inherent deficiencies in spatial and geometric computation. We introduce Exemplar2VQA, a scalable exemplar-driven visual question answering generation framework that rapidly synthesizes large-scale spatial QA pairs in simulated environments via multi-agent coding. By equipping collaborative agents with a meticulously designed library of geometric utilities, Exemplar2VQA bypasses LLMs' spatial reasoning flaws through deterministic code execution. Crucially, the framework exhibits remarkable versatility: taking diverse static object-centric spatial query templates as exemplars, it seamlessly and autonomously scales them into massive, high-fidelity synthetic datasets. Fine-tuning Qwen2.5-VL (3B/7B) exclusively on Exemplar2VQA-generated synthetic indoor data yields significant performance improvements across various diverse benchmarks. Furthermore, its effectiveness is not limited to in-domain indoor datasets but also robustly extends to outdoor and mixed-scene benchmarks. These results establish Exemplar2VQA as a scalable and powerful paradigm for bridging the sim-to-real gap in Embodied AI.},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {2026},
+  arxiv = {2609.37655},
+  code = {https://github.com/yingjiayu12/Exemplar2VQA},
+  preview = {exemplar2vqa.png},
+  bibtex_show = {true},
+  additional_info = {&nbsp;· **Accepted · [CCF-A](https://www.ccf.org.cn/Academic_Evaluation/AI/)**},
+  note = {Generates scalable spatial question-answer data in simulated environments through exemplar-driven multi-agent coding, supporting spatial reasoning in vision-language models.},
+  selected = {true}
+}
+
 @article{xu2026muse,
   abbr = {arXiv},
   title = {MUSE: Agentic 3D Scene Authoring via Memory-Grounded Incremental Requirement Satisfaction},
@@ -12,7 +28,8 @@
   website = {https://xujay111.github.io/muse_githubio/},
   preview = {muse.png},
   bibtex_show = {true},
-  additional_info = {Ruijie Xu and Xinnan Zhu contributed equally.},
+  additional_info = {&nbsp;· Ruijie Xu and Xinnan Zhu contributed equally},
+  note = {Enables controllable 3D scene authoring through memory-grounded multi-agent collaboration, satisfying new requirements while preserving existing scene content. Includes AuthorBench for evaluating controllability and preservation.},
   selected = {true}
 }
 
@@ -25,9 +42,11 @@
   year = {2026},
   arxiv = {2606.13345},
   website = {https://xinnan-zhu.github.io/JointEdit3D-Page/},
+  code = {https://github.com/xinnan-zhu/JointEdit3D},
   preview = {jointedit3d.png},
   bibtex_show = {true},
-  additional_info = {Xinnan Zhu and Ruijie Xu contributed equally.},
+  additional_info = {&nbsp;· Xinnan Zhu and Ruijie Xu contributed equally},
+  note = {Edits 3D scenes in a unified RGB-geometry latent space, with SceneEdit3D-15K paired data and SceneEdit3D-Bench for evaluation. The repository hosts project and dataset information; implementation release is pending.},
   selected = {true}
 }
 
@@ -41,7 +60,8 @@
   arxiv = {2603.29759},
   preview = {tsha.png},
   bibtex_show = {true},
-  selected = {false}
+  note = {Benchmarks vision-language models on indoor safety hazard assessment using image, video, and panoramic question-answer data, covering 12 hazard groups and 64 fine-grained hazard types.},
+  selected = {true}
 }
 
 @article{xu2025oshsplat,
@@ -57,5 +77,7 @@
   doi = {10.1007/s00371-025-04091-5},
   preview = {oshsplat.png},
   bibtex_show = {true},
+  additional_info = {&nbsp;· **Published · [CCF-C](https://www.ccf.org.cn/Academic_Evaluation/CGAndMT/)**},
+  note = {Builds compact 3D language fields for open-vocabulary scene understanding through semantic feature learning and query-specific hyperplane optimization.},
   selected = {true}
 }

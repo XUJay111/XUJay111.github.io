@@ -1,4 +1,43 @@
-# al-folio
+# Ruijie Xu — Academic Website
+
+Personal academic website for Ruijie Xu, focused on **data generation for embodied AI**: controllable 3D scenes, simulation-based multimodal data, and safety-oriented benchmarks.
+
+**Website:** <https://XUJay111.github.io>
+
+The site uses Jekyll and the pluginized al-folio v1 theme. GitHub Actions builds the site and publishes it to GitHub Pages.
+
+## Editing the site
+
+| Content                                                | Location                   |
+| ------------------------------------------------------ | -------------------------- |
+| Biography and research interests                       | `_pages/about.md`          |
+| Publications, summaries, and paper links               | `_bibliography/papers.bib` |
+| Venue links                                            | `_data/venues.yml`         |
+| CV                                                     | `_data/cv.yml`             |
+| Research project pages                                 | `_projects/`               |
+| Open-source repository descriptions and release status | `_data/repositories.yml`   |
+| Announcements                                          | `_news/`                   |
+| Site metadata and feature settings                     | `_config.yml`              |
+
+See [site maintenance notes](docs/SITE_MAINTENANCE.md) for publication labels, image credits, and repository updates.
+
+## Local checks
+
+Use the Ruby and Bundler versions supported by the lockfile, then install dependencies with `bundle install` and `npm ci`.
+
+```bash
+bundle exec jekyll serve
+npm run lint:prettier
+npm run lint:style-contract
+bundle exec jekyll build
+```
+
+Theme layouts and runtime components are supplied by gems. See [ownership boundaries](docs/BOUNDARIES.md) before changing theme behavior.
+
+<details>
+<summary>Original al-folio template documentation</summary>
+
+## al-folio
 
 <div align="center">
 
@@ -587,3 +626,5 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/main/LICENSE).
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.
+
+</details>

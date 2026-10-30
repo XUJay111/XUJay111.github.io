@@ -12,6 +12,10 @@
   url: https://arxiv.org/
   color: "#b31b1b"
 
+"NeurIPS":
+  url: https://neurips.cc/Conferences/2026
+  color: "#684b9f"
+
 "Vis. Comput.":
   url: https://link.springer.com/journal/371
   color: "#006d77"

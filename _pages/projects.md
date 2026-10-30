@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: selected research and open-source projects
+description: controllable 3D scenes, multimodal data generation, and evaluation benchmarks
 nav: true
 nav_order: 3
 display_categories: []
@@ -10,6 +10,9 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+
+My projects explore how to build scenes, generate grounded multimodal data, and construct benchmarks for embodied AI. For public repositories and release details, visit [Open Source]({{ '/repositories/' | relative_url }}).
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

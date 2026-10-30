@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student at ECNU | Research Intern at Shanghai AI Laboratory
+subtitle: Data Generation for Embodied AI
 
 profile:
   align: right
@@ -10,8 +10,6 @@ profile:
   image: ayanokoji_avatar.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p><a href="https://dmcv-ecnu.github.io/">DMCV Lab @ ECNU</a></p>
-    <p><a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a></p>
     <p>Shanghai, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -28,9 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am **Ruijie Xu**, a Ph.D. student in the [DMCV Lab](https://dmcv-ecnu.github.io/) at **East China Normal University**, advised by [Prof. Xin Tan](https://tanxincs.github.io/), and a **Research Intern** at the **Safe and Trustworthy AI Center**, [Shanghai AI Laboratory](https://www.shlab.org.cn/).
+I am **Ruijie Xu**, a Ph.D. student at **East China Normal University**, advised by [Prof. Xin Tan](https://tanxincs.github.io/) in the [DMCV Lab](https://dmcv-ecnu.github.io/). I am also a research intern at the **Safe and Trustworthy AI Center**, [Shanghai AI Laboratory](https://www.shlab.org.cn/).
 
-My research focuses on **embodied AI**, **3D vision**, and **interactive scene understanding**, with an emphasis on controllable 3D scene authoring, scene editing, and trustworthy vision-language model evaluation.
-Recent work includes [MUSE](https://arxiv.org/abs/2606.14168), [JointEdit3D](https://arxiv.org/abs/2606.13345), and [TSHA](https://arxiv.org/abs/2603.29759).
+My research focuses on **data generation for embodied AI**. I study how to create diverse, controllable, and scalable data—from editable 3D scenes to spatial question-answer pairs and safety-oriented benchmarks—for training and evaluating models that understand the physical world. My recent work spans **3D scene authoring and editing**, **simulation-based multimodal data generation**, and **benchmark construction**.
 
-Before joining ECNU, I received my B.Sc. in **Computer Science and Technology** from **Chongqing University** in 2026. I also maintain [awesome-ai2-thor](https://github.com/XUJay111/awesome-ai2-thor) and welcome research collaborations in embodied AI and 3D vision.
+I received my B.Sc. in **Computer Science and Technology** from **Chongqing University** in 2026. I also maintain [awesome-ai2-thor](https://github.com/XUJay111/awesome-ai2-thor), a curated collection of resources for embodied AI research.
+
+Explore my [research projects]({{ '/projects/' | relative_url }}) and [open-source work]({{ '/repositories/' | relative_url }}). I welcome collaborations on embodied data generation and simulation.

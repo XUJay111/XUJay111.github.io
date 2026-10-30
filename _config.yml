@@ -7,15 +7,16 @@ first_name: Ruijie
 middle_name:
 last_name: Xu
 contact_note: >
-  I am open to research collaboration on embodied AI, 3D vision, and interactive scene understanding.
+  I welcome research collaborations on data generation for embodied AI, controllable 3D environments, and multimodal datasets.
   You can reach me at ruijiex0@gmail.com.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ruijie Xu is a Ph.D. student advised by Prof. Xin Tan in the DMCV Lab at East China Normal University and a research intern at the Safe and Trustworthy AI Center, Shanghai AI Laboratory, researching embodied AI, controllable 3D scene authoring and editing, 3D vision, and trustworthy vision-language model evaluation.
+  Ruijie Xu researches data generation for embodied AI, including controllable 3D scenes, spatial question-answer data, and safety-oriented benchmarks. Ph.D. student at East China Normal University and research intern at Shanghai AI Laboratory.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Ruijie Xu, Xu Ruijie, embodied AI, 3D vision, 3D scene authoring, 3D scene editing, vision-language models, AI2-THOR, East China Normal University # add your own keywords or leave empty
+keywords: Ruijie Xu, Xu Ruijie, embodied AI, synthetic data, data generation, 3D scene generation, 3D scene editing, spatial reasoning, vision-language models, AI2-THOR, East China Normal University
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+timezone: Asia/Shanghai
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://XUJay111.github.io # the base hostname & protocol for your site
@@ -32,7 +33,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -84,7 +85,7 @@ al_folio:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: false
@@ -98,9 +99,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://XUJay111.github.io/assets/img/publication_preview/muse.png
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -206,7 +207,10 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - AGENTS.md
+  - CLAUDE.md
   - al-folio-upgrade-report.md
+  - assets/rendercv/rendercv_output/Albert_Einstein_CV.pdf
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -225,7 +229,9 @@ exclude:
   - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
+  - requirements.txt
   - readme_preview/
+  - test/
   - gems/
   - migrations/
   - vendor
@@ -383,6 +389,7 @@ filtered_bibtex_keywords:
     hal,
     html,
     inspirehep_id,
+    note,
     pdf,
     pmid,
     poster,

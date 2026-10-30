@@ -2,6 +2,34 @@ github_users:
   - XUJay111
 
 repo_description_lines_max: 2
+show_stats: false
 
 github_repos:
+  - yingjiayu12/Exemplar2VQA
+  - xinnan-zhu/JointEdit3D
   - XUJay111/awesome-ai2-thor
+
+repository_details:
+  yingjiayu12/Exemplar2VQA:
+    title: Exemplar2VQA
+    relationship: Research collaboration
+    description: Multi-agent coding pipelines for collecting simulated camera views and generating spatial question-answer data from exemplars.
+    release: Camera collection and QA generation pipelines are publicly available.
+    paper_key: ying2026exemplar2vqa
+    project: /projects/exemplar2vqa/
+
+  xinnan-zhu/JointEdit3D:
+    title: JointEdit3D
+    relationship: Research collaboration
+    description: Reference-guided 3D scene editing with paired RGB-geometry data and an evaluation benchmark.
+    release: SceneEdit3D-15K is available. The repository currently hosts project and dataset information; inference and training code are planned for release upon paper acceptance.
+    paper_key: zhu2026jointedit3d
+    project: /projects/jointedit3d/
+    dataset: https://huggingface.co/datasets/koalaccc/SceneEdit3D-15K
+
+  XUJay111/awesome-ai2-thor:
+    title: awesome-ai2-thor
+    relationship: Maintained by me
+    description: Curated papers, benchmarks, datasets, simulators, and tools for research with AI2-THOR and related embodied AI environments.
+    release: Public resource collection.
+    project: /projects/awesome-ai2-thor/
